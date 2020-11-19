@@ -49,18 +49,18 @@ setup(
     install_requires=[
         'enum34;python_version<"3.4"',
         'future;python_version<"3.3"',
-        'pyaml',
-        'pycryptodome',
+        #'pyaml',
+        #'pycryptodome',
         'pyserial',
         'simplejson'
     ],
 
     entry_points={
       'console_scripts': [
-          'mbus-serial-scan-primary = meterbus.tools:serial_scan_primary',
-          'mbus-serial-scan-secondary = meterbus.tools:serial_scan_secondary',
-          'mbus-serial-req-single = meterbus.tools:serial_request_single',
-          'mbus-serial-req-multi = meterbus.tools:serial_request_multi'
+          #'mbus-serial-scan-primary = meterbus.tools:serial_scan_primary',
+          #'mbus-serial-scan-secondary = meterbus.tools:serial_scan_secondary',
+          #'mbus-serial-req-single = meterbus.tools:serial_request_single',
+          #'mbus-serial-req-multi = meterbus.tools:serial_request_multi'
       ]
     }
 )
